@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Super_Solar_System.Entities.Planet>
+
+@{
+    ViewBag.Title = "Planets";
+}
+
+<h2 class="text-center">Planets</h2>
+
+<hr />
+<div class="container-fluid">
+    <h4 class="col-md-6">
+        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+        @Html.ActionLink("Create New", "Create")
+    </h4>
+
+    <div class="pull-right">
+        @using (Html.BeginForm())
+        {
+            <p>
+                Find by Name: @Html.TextBox("SearchString")
+                <input type="submit" value="Search" />
+            </p>
+        }
+    </div>
+
+</div>
+<hr />
+<br />
+
+<div class="container-fluid">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <!-- <<<<<<<<<<<<<<<< Planet >>>>>>>>>>>>>>>>>> -->
+            <div class="col-md-2 col-md-offset-1">
+                <div class="person">
+                    <img src="@Html.DisplayFor(modelItem => item.Image)" alt="A Planet" class="img-responsive">
+                    <div class="person-content">
+                        <h4>@Html.DisplayFor(modelItem => item.Name)</h4>
+                        <h5 class="role">@Html.DisplayNameFor(model => model.Distance) : @Html.DisplayFor(modelItem => item.Distance)</h5>
+                        <h5 class="role">@Html.DisplayNameFor(model => model.Radius) : @Html.DisplayFor(modelItem => item.Radius)</h5>
+                        <h5>
+                            @Html.DisplayNameFor(model => model.Habitants) :
+                        </h5>
+                        <p>
+                            @foreach (var habitants in item.Habitants)
+                            {
+                                @Html.DisplayFor(modelItem => habitants.Species)
+                            }
+                        </p>
+                        <div>
+                            @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                            @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                            @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                        </div>
+                        <br />
+                        <br />
+                    </div>
+                </div>
+            </div>
+            <!-- <<<<<<<<<<<<<<<< Planet >>>>>>>>>>>>>>>>>> -->
+        }
+    </div>
+</div>
+
+

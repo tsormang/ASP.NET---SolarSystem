@@ -1,0 +1,49 @@
+C:\Users\Giger_PC\Desktop\Super Solar System\Super_Solar_System.Database\bin\Debug\Super_Solar_System.Database.dll.config
+C:\Users\Giger_PC\Desktop\Super Solar System\Super_Solar_System.Database\bin\Debug\Super_Solar_System.Database.dll
+C:\Users\Giger_PC\Desktop\Super Solar System\Super_Solar_System.Database\bin\Debug\Super_Solar_System.Database.pdb
+C:\Users\Giger_PC\Desktop\Super Solar System\Super_Solar_System.Database\bin\Debug\EntityFramework.dll
+C:\Users\Giger_PC\Desktop\Super Solar System\Super_Solar_System.Database\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Giger_PC\Desktop\Super Solar System\Super_Solar_System.Database\bin\Debug\Super_Solar_System.Entities.dll
+C:\Users\Giger_PC\Desktop\Super Solar System\Super_Solar_System.Database\bin\Debug\Super_Solar_System.Entities.pdb
+C:\Users\Giger_PC\Desktop\Super Solar System\Super_Solar_System.Database\bin\Debug\EntityFramework.xml
+C:\Users\Giger_PC\Desktop\Super Solar System\Super_Solar_System.Database\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Giger_PC\Desktop\Super Solar System\Super_Solar_System.Database\obj\Debug\Super_Solar_System.Database.csprojAssemblyReference.cache
+C:\Users\Giger_PC\Desktop\Super Solar System\Super_Solar_System.Database\obj\Debug\Super_Solar_System.Database.Migrations.InitialCreate.resources
+C:\Users\Giger_PC\Desktop\Super Solar System\Super_Solar_System.Database\obj\Debug\Super_Solar_System.Database.csproj.GenerateResource.cache
+C:\Users\Giger_PC\Desktop\Super Solar System\Super_Solar_System.Database\obj\Debug\Super_Solar_System.Database.csproj.CoreCompileInputs.cache
+C:\Users\Giger_PC\Desktop\Super Solar System\Super_Solar_System.Database\obj\Debug\Super_Solar_System.Database.csproj.CopyComplete
+C:\Users\Giger_PC\Desktop\Super Solar System\Super_Solar_System.Database\obj\Debug\Super_Solar_System.Database.dll
+C:\Users\Giger_PC\Desktop\Super Solar System\Super_Solar_System.Database\obj\Debug\Super_Solar_System.Database.pdb
+F:\ASP.NET MVC works\Super Solar System\Super_Solar_System.Database\bin\Debug\Super_Solar_System.Database.dll.config
+F:\ASP.NET MVC works\Super Solar System\Super_Solar_System.Database\bin\Debug\Super_Solar_System.Database.dll
+F:\ASP.NET MVC works\Super Solar System\Super_Solar_System.Database\bin\Debug\Super_Solar_System.Database.pdb
+F:\ASP.NET MVC works\Super Solar System\Super_Solar_System.Database\bin\Debug\EntityFramework.dll
+F:\ASP.NET MVC works\Super Solar System\Super_Solar_System.Database\bin\Debug\EntityFramework.SqlServer.dll
+F:\ASP.NET MVC works\Super Solar System\Super_Solar_System.Database\bin\Debug\Super_Solar_System.Entities.dll
+F:\ASP.NET MVC works\Super Solar System\Super_Solar_System.Database\bin\Debug\Super_Solar_System.Entities.pdb
+F:\ASP.NET MVC works\Super Solar System\Super_Solar_System.Database\bin\Debug\EntityFramework.xml
+F:\ASP.NET MVC works\Super Solar System\Super_Solar_System.Database\bin\Debug\EntityFramework.SqlServer.xml
+F:\ASP.NET MVC works\Super Solar System\Super_Solar_System.Database\obj\Debug\Super_Solar_System.Database.csprojAssemblyReference.cache
+F:\ASP.NET MVC works\Super Solar System\Super_Solar_System.Database\obj\Debug\Super_Solar_System.Database.Migrations.InitialCreate.resources
+F:\ASP.NET MVC works\Super Solar System\Super_Solar_System.Database\obj\Debug\Super_Solar_System.Database.csproj.GenerateResource.cache
+F:\ASP.NET MVC works\Super Solar System\Super_Solar_System.Database\obj\Debug\Super_Solar_System.Database.csproj.CoreCompileInputs.cache
+F:\ASP.NET MVC works\Super Solar System\Super_Solar_System.Database\obj\Debug\Super_Solar_System.Database.csproj.CopyComplete
+F:\ASP.NET MVC works\Super Solar System\Super_Solar_System.Database\obj\Debug\Super_Solar_System.Database.dll
+F:\ASP.NET MVC works\Super Solar System\Super_Solar_System.Database\obj\Debug\Super_Solar_System.Database.pdb
+F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Database\bin\Debug\Super_Solar_System.Database.dll.config
+F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Database\bin\Debug\Super_Solar_System.Database.dll
+F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Database\bin\Debug\Super_Solar_System.Database.pdb
+F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Database\bin\Debug\EntityFramework.dll
+F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Database\bin\Debug\EntityFramework.SqlServer.dll
+F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Database\bin\Debug\Super_Solar_System.Entities.dll
+F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Database\bin\Debug\Super_Solar_System.Entities.pdb
+F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Database\bin\Debug\EntityFramework.xml
+F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Database\bin\Debug\EntityFramework.SqlServer.xml
+F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Database\obj\Debug\Super_Solar_System.Database.csprojAssemblyReference.cache
+F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Database\obj\Debug\Super_Solar_System.Database.Migrations.InitialCreate.resources
+F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Database\obj\Debug\Super_Solar_System.Database.csproj.GenerateResource.cache
+F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Database\obj\Debug\Super_Solar_System.Database.csproj.CoreCompileInputs.cache
+F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Database\obj\Debug\Super_Solar_System.Database.csproj.CopyComplete
+F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Database\obj\Debug\Super_Solar_System.Database.dll
+F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Database\obj\Debug\Super_Solar_System.Database.pdb
+F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Database\obj\Debug\Super_Solar_System.Database.Migrations.Images.resources

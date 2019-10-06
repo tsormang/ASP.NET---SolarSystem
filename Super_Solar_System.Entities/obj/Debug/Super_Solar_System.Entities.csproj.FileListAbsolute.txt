@@ -1,0 +1,23 @@
+C:\Users\Giger_PC\Desktop\Super Solar System\Super_Solar_System.Entities\bin\Debug\Super_Solar_System.Entities.dll
+C:\Users\Giger_PC\Desktop\Super Solar System\Super_Solar_System.Entities\bin\Debug\Super_Solar_System.Entities.pdb
+C:\Users\Giger_PC\Desktop\Super Solar System\Super_Solar_System.Entities\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Giger_PC\Desktop\Super Solar System\Super_Solar_System.Entities\obj\Debug\Super_Solar_System.Entities.csprojAssemblyReference.cache
+C:\Users\Giger_PC\Desktop\Super Solar System\Super_Solar_System.Entities\obj\Debug\Super_Solar_System.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Giger_PC\Desktop\Super Solar System\Super_Solar_System.Entities\obj\Debug\Super_Solar_System.Entities.csproj.CopyComplete
+C:\Users\Giger_PC\Desktop\Super Solar System\Super_Solar_System.Entities\obj\Debug\Super_Solar_System.Entities.dll
+C:\Users\Giger_PC\Desktop\Super Solar System\Super_Solar_System.Entities\obj\Debug\Super_Solar_System.Entities.pdb
+F:\ASP.NET MVC works\Super Solar System\Super_Solar_System.Entities\bin\Debug\Super_Solar_System.Entities.dll
+F:\ASP.NET MVC works\Super Solar System\Super_Solar_System.Entities\bin\Debug\Super_Solar_System.Entities.pdb
+F:\ASP.NET MVC works\Super Solar System\Super_Solar_System.Entities\bin\Debug\System.ComponentModel.Annotations.dll
+F:\ASP.NET MVC works\Super Solar System\Super_Solar_System.Entities\obj\Debug\Super_Solar_System.Entities.csproj.CoreCompileInputs.cache
+F:\ASP.NET MVC works\Super Solar System\Super_Solar_System.Entities\obj\Debug\Super_Solar_System.Entities.csproj.CopyComplete
+F:\ASP.NET MVC works\Super Solar System\Super_Solar_System.Entities\obj\Debug\Super_Solar_System.Entities.dll
+F:\ASP.NET MVC works\Super Solar System\Super_Solar_System.Entities\obj\Debug\Super_Solar_System.Entities.pdb
+F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Entities\bin\Debug\Super_Solar_System.Entities.dll
+F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Entities\bin\Debug\Super_Solar_System.Entities.pdb
+F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Entities\bin\Debug\System.ComponentModel.Annotations.dll
+F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Entities\obj\Debug\Super_Solar_System.Entities.csprojAssemblyReference.cache
+F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Entities\obj\Debug\Super_Solar_System.Entities.csproj.CoreCompileInputs.cache
+F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Entities\obj\Debug\Super_Solar_System.Entities.csproj.CopyComplete
+F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Entities\obj\Debug\Super_Solar_System.Entities.dll
+F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Entities\obj\Debug\Super_Solar_System.Entities.pdb

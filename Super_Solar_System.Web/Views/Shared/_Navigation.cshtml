@@ -1,0 +1,53 @@
+﻿<!-- header section -->
+<section class="banner" role="banner">
+    <!--header navigation -->
+    <header id="header">
+        <div class="header-content clearfix">
+            <h2>
+                <span class="fa fa-globe"></span>                
+                @Html.ActionLink("Solar System", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </h2>
+  
+            <nav class="navigation" role="navigation">
+                <ul class="primary-nav">
+                    <li>@Html.ActionLink("Planets", "Index", "Planet")</li>
+                    <li>@Html.ActionLink("Moons", "Index", "Moon")</li>
+                    <li>@Html.ActionLink("Habitants", "Index", "Habitant")</li>
+                    <li><a href="#focus">Focus</a></li>
+                    <li><a href="#chat">Chat</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="nav-toggle">Menu<span></span></a>
+
+        </div>
+    </header>
+    <!--header navigation -->
+    <!-- banner text -->
+    <div class="container">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="banner-text text-center">
+                <h1>Solar Systems</h1>
+                <p>create your own solar system</p>
+                <div class="col-md-8 col-md-offset-2 text-middle">
+                    <ul class="social-icons">
+                        <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                        <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                        <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                        <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                        <li><a href="#"><span class="fa fa-dribbble"></span></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-8 col-md-offset-2 text-center">
+                    @Html.Partial("_LoginPartial")
+                </div>
+                <div class="col-md-8 col-md-offset-2 text-center">
+                    <nav role="navigation"> <a href="#teams" class="banner-btn"><img src="images/down-arrow.png" alt=""></a></nav>
+                </div>  
+            </div>
+            <!-- banner text -->
+        </div>
+    </div>
+</section>
+<!-- header section -->
+
+
