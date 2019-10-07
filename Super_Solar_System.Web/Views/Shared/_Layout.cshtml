@@ -25,7 +25,61 @@
     </section>
     <!-- our team section -->
 
-    @Html.Partial("_SignalR")
+
+    <hr />
+    <section id="chat" class="section quote">
+        <div class="container">
+
+            <div class="col-md-8 col-md-offset-2 text-center">
+                <h3> SignalR Demo</h3>
+            </div>
+            <br />
+            <div class="col-md-8 col-md-offset-2 text-center">
+                <button id="showModal" class="btn btn-large">MessageBox</button>
+            </div>
+
+            <!-- The Modal -->
+            <div id="theModal" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <!-- The Header -->
+                        <div style="color:black" class="modal-footer">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"> x </button>
+                            <h4 class="modal-title push-left"> Welcome to the InterStellar Chat!</h4>
+                        </div>
+                        <!-- The Body -->
+                        <div class="modal-body">
+                            <div class="col-md-8 col-md-offset-2 text-center">
+                                <br />
+                                <br />
+                                <div class="col-md-4">
+                                    <input style="color:black" type="text" placeholder="Message" data-bind="value:message" />
+                                    <button class="btn btn-large" data-bind="click:sendMessage"> Send </button>
+                                </div>
+                                <div style="color:white" class="col-md-4">
+                                    <div data-bind="foreach:messages">
+                                        <div data-bind="text: $data">
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <br />
+                                <br />
+                            </div>
+                        </div>
+                        <!-- The Footer -->
+                        <div style="color:black" class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal"> Close </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr />
+
+
     @Html.Partial("_Footer")
 
 
@@ -34,6 +88,11 @@
 
     @Scripts.Render("~/bundles/js")
     @RenderSection("scripts", required: false)
+
+    <script src="~/Scripts/jquery.signalR-2.4.1.js"></script>
+    <script src="~/SignalR/hubs"></script>
+    <script src="~/Scripts/knockout-3.5.0.js"></script>
+    <script src="~/js/perfSurf.js"></script>
 
 </body>
 </html>

@@ -52,5 +52,24 @@ $(document).ready(function() {
 	nav.find('a').on('click', function() {
 		$('.nav-toggle').toggleClass('close-nav');
 		nav.toggleClass('open');
-	});
+    });
+
+
+    // Modal
+    $(function () {
+        var showModal = function () {
+            $("#theModal").modal("show");
+        };
+        $("#showModal").click(showModal);
+    });
+
+
+
+
+
+
+
+
+
+
 });

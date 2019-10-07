@@ -13,12 +13,14 @@ using Super_Solar_System.Web.ViewModels;
 
 namespace Super_Solar_System.Web.Controllers
 {
+    [Authorize]
     public class PlanetController : Controller
     {
         //private ApplicationDbContext db = new ApplicationDbContext();
         private SunContext db = new SunContext();
 
-        // GET: Movie ------------------------------------------------------------------------->>
+        [AllowAnonymous]
+        // GET: Planet ------------------------------------------------------------------------->>
         public ActionResult Index()
         {
             var movies = db.Planets.Include(m => m.Moons).Include(m => m.Habitants);

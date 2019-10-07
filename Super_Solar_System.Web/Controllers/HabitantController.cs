@@ -13,11 +13,13 @@ using Super_Solar_System.Web.Models;
 
 namespace Super_Solar_System.Web.Controllers
 {
+    [Authorize]
     public class HabitantController : Controller
     {
         //private ApplicationDbContext db = new ApplicationDbContext();
         private SpeciesService SpeciesService = new SpeciesService();
 
+        [AllowAnonymous]
         // GET: Habitant -------------------------------------------------------->>
         public ActionResult Index(string searchString)
         {

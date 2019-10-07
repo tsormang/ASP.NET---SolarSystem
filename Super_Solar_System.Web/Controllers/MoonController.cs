@@ -13,11 +13,13 @@ using Super_Solar_System.Web.Models;
 
 namespace Super_Solar_System.Web.Controllers
 {
+    [Authorize]
     public class MoonController : Controller
     {
         //private ApplicationDbContext db = new ApplicationDbContext();
         private MoonService MoonService = new MoonService();
 
+        [AllowAnonymous]
         // GET: Moon -------------------------------------------------------->>
         public ActionResult Index(string searchString)
         {

@@ -26,5 +26,10 @@ namespace Super_Solar_System.Web.Controllers
 
             return View();
         }
+
+        public ActionResult Chat()
+        {
+            return View();
+        }
     }
 }

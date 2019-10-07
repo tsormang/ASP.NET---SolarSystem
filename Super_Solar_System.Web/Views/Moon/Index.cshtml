@@ -18,7 +18,7 @@
         {
             <p>
                 Find by Name: @Html.TextBox("SearchString")
-                <input type="submit" value="Search" />
+                <input class="btn btn-large" type="submit" value="Search" />
             </p>
         }
     </div>
@@ -34,17 +34,19 @@
             <!-- <<<<<<<<<<<<<<<< Planet >>>>>>>>>>>>>>>>>> -->
             <div class="col-md-2 col-md-offset-1">
                 <div class="person">
-                    @Html.DisplayNameFor(model => model.Image)
                     <img src="@Html.DisplayFor(modelItem => item.Image)" alt="A Planet" class="img-responsive">
                     <div class="person-content">
                         <h4>@Html.DisplayNameFor(model => model.Name) : @Html.DisplayFor(modelItem => item.Name)</h4>
                         <h5 class="role">@Html.DisplayNameFor(model => model.Distance) : @Html.DisplayFor(modelItem => item.Distance)</h5>
                         <h5 class="role">@Html.DisplayNameFor(model => model.Radius) : @Html.DisplayFor(modelItem => item.Radius)</h5>
-                        <div>
-                            @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
-                            @Html.ActionLink("Details", "Details", new { id = item.Id }) |
-                            @Html.ActionLink("Delete", "Delete", new { id = item.Id })
-                        </div>
+                        @if (User.IsInRole("admin"))
+                        {
+                            <div>
+                                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                            </div>
+                        }
                         <br />
                         <br />
                     </div>

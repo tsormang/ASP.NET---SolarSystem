@@ -340,3 +340,9 @@ F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Web\obj\Debug\Super
 F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Web\obj\Debug\Super_Solar_System.Web.dll
 F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Web\obj\Debug\Super_Solar_System.Web.pdb
 F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Web\obj\Debug\Super_Solar_System.Web.Migrations.Images.resources
+F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Web\bin\Microsoft.AspNet.SignalR.Core.dll
+F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Web\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Web\bin\Microsoft.AspNet.SignalR.Core.pdb
+F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Web\bin\Microsoft.AspNet.SignalR.Core.xml
+F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Web\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+F:\ASP.NET MVC works\Super Solar System 2\Super_Solar_System.Web\bin\Microsoft.AspNet.SignalR.SystemWeb.xml

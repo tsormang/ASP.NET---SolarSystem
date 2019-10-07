@@ -13,31 +13,31 @@
 p {
 	font-size: 14px;
 	line-height: 22.4px;
-	color: #6c7279;
+	color: #fff;
 }
 h1 {
-	font-size: 65px;
-	color: #2d3033;
+    font-size: 65px;
+    color: #fff;
 }
 h2 {
-	font-size: 40px;
-	color: #2d3033;
+    font-size: 40px;
+    color: #fff;
 }
 h3 {
-	font-size: 28px;
-	color: #2d3033;
-	font-weight: 300;
+    font-size: 28px;
+    color: #fff;
+    font-weight: 300;
 }
 h4 {
-	font-size: 22px;
-	color: #2d3033;
-	font-weight: 400;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 400;
 }
 h5 {
-	font-size: 14px;
-	color: #2d3033;
-	text-transform: uppercase;
-	font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 .btn {
 	background-color: #3bc492;
@@ -73,9 +73,10 @@ a:hover, a:focus {
 	transition: background-color, color, 0.3s;
 }
 body {
-	font-family: "Source Sans Pro";
-	font-weight: 400;
-	color: #6c7279;
+    background-color: rgba(0, 0, 0, 1);
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
 }
 ul, ol {
 	margin: 0;
@@ -118,9 +119,9 @@ ul li {
 #header .logo {
 	float: left;
 }
-#header.fixed {
-	background-color: rgba(0, 0, 0, 1);
-}
+    #header.fixed {
+        background-color: #242424;
+    }
 #header.fixed .header-content {
 	border-bottom: 0;
 	padding: 25px 0;
@@ -317,22 +318,23 @@ ul li {
 	font-weight: 700;
 	text-transform: uppercase;
 }
-.banner-text p {
-	color: #8d8d8d;
-	font-size: 12px;
-	font-weight: 400;
-	letter-spacing: 3px;
-	line-height: 24px;
-	margin-top: 10px;
-	margin-bottom: 80px;
-	text-transform: uppercase;
-}
+    .banner-text p {
+        color: #fff;
+        text-shadow: 2px 2px 2px 1px #6c7279;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        line-height: 24px;
+        margin-top: 10px;
+        margin-bottom: 80px;
+        text-transform: uppercase;
+    }
 /* ------------------------------------------------------------------------------
 	 Intro
 -------------------------------------------------------------------------------*/
 .intro {
-	background-color: #e9eaed;
-	position: relative;
+    background-color: rgba(0, 0, 0, 1);
+    position: relative;
 }
 .intro blockquote {
 	border: 0;
@@ -454,13 +456,17 @@ ul li {
 -------------------------------------------------------------------------------*/
 .person {
 	max-width: 200px;
+    min-height:500px;
+    /*border: solid 1px;*/
 	text-align: center;
+    Margin-bottom:20px;
 }
 .person-content {
 	margin-top: 20px;
 }
 .person h4 {
-	font-weight: 400;
+    color: #fff;
+    font-weight: 400;
 }
 .person h5 {
 	color: #e84545;
@@ -544,7 +550,7 @@ ul li {
 	text-align: left;
 }
 .footer-top {
-	background-color: #181818;
+	background-color: #242424;
 	padding-top: 50px;
 }
 .footer-bottom {

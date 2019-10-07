@@ -16,9 +16,10 @@
     <div class="pull-right">
         @using (Html.BeginForm())
         {
-            <p>
-                Find by Name: @Html.TextBox("SearchString")
-                <input type="submit" value="Search" />
+
+            <p style="color:black">
+                @Html.TextBox("SearchString")
+                <input class="btn btn-large" type="submit" value="Search" />
             </p>
         }
     </div>
@@ -27,32 +28,55 @@
 <hr />
 <br />
 
-<div class="container-fluid">
+<div class="d-flex justify-content-center">
     <div class="row">
         @foreach (var item in Model)
         {
             <!-- <<<<<<<<<<<<<<<< Planet >>>>>>>>>>>>>>>>>> -->
             <div class="col-md-2 col-md-offset-1">
-                <div class="person">
+                <div style="height:800px" class="person">
                     <img src="@Html.DisplayFor(modelItem => item.Image)" alt="A Planet" class="img-responsive">
                     <div class="person-content">
                         <h4>@Html.DisplayFor(modelItem => item.Name)</h4>
                         <h5 class="role">@Html.DisplayNameFor(model => model.Distance) : @Html.DisplayFor(modelItem => item.Distance)</h5>
                         <h5 class="role">@Html.DisplayNameFor(model => model.Radius) : @Html.DisplayFor(modelItem => item.Radius)</h5>
                         <h5>
+                            @Html.DisplayNameFor(model => model.Moons) :
+                        </h5>
+                        <ul>
+                            @foreach (var moons in item.Moons)
+                            {
+
+                                <li>
+                                    <img style="width:30px" src="@Html.DisplayFor(modelItem => moons.Image)" alt="moon">
+                                    @Html.DisplayFor(modelItem => moons.Name)
+                                </li>
+                            }
+                        </ul>
+                        <br />
+                        <h5>
                             @Html.DisplayNameFor(model => model.Habitants) :
                         </h5>
-                        <p>
+                        <ul>
                             @foreach (var habitants in item.Habitants)
                             {
-                                @Html.DisplayFor(modelItem => habitants.Species)
+                                <li>
+                                    <i class="fa fa-users" aria-hidden="true"></i>
+                                    @Html.DisplayFor(modelItem => habitants.Species)
+                                </li>
                             }
-                        </p>
-                        <div>
-                            @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
-                            @Html.ActionLink("Details", "Details", new { id = item.Id }) |
-                            @Html.ActionLink("Delete", "Delete", new { id = item.Id })
-                        </div>
+                        </ul>
+                        <br />
+
+                        @if (User.IsInRole("admin"))
+                        {
+                            <div>
+                                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                            </div>
+                        }
+
                         <br />
                         <br />
                     </div>
