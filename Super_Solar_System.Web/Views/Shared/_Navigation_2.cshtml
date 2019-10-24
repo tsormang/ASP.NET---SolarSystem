@@ -1,0 +1,27 @@
+﻿<!-- header section -->
+<section class="banner" role="banner">
+    <!--header navigation -->
+    <header id="header">
+        <div class="header-content clearfix">
+            <h2>
+                <span class="fa fa-globe"></span>
+                @Html.ActionLink("Solar System", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </h2>
+
+            <nav class="navigation" role="navigation">
+                <ul class="primary-nav">
+                    <li>@Html.ActionLink("Planets", "Index", "Planet")</li>
+                    <li>@Html.ActionLink("Moons", "Index", "Moon")</li>
+                    <li>@Html.ActionLink("Habitants", "Index", "Habitant")</li>
+                    <li><a href="#focus">Focus</a></li>
+                    <li><a href="#chat">Chat</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="nav-toggle">Menu<span></span></a>
+
+        </div>
+    </header>
+    <!--header navigation -->
+  
+</section>
+<!-- header section -->

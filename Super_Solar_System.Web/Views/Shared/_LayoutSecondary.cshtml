@@ -1,0 +1,46 @@
+﻿<!doctype html>
+
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Solar Systems</title>
+
+    @Styles.Render("~/bundles/css")
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!-- Header
+    ================================================== -->
+    @Html.Partial("_Navigation_2")
+
+
+    <!-- our team section -->
+    <section id="focus" class="section teams">
+        @RenderBody()
+    </section>
+    <!-- our team section -->
+
+
+
+
+    @Html.Partial("_Footer")
+
+
+    <!-- Java Script ================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    @Scripts.Render("~/bundles/js")
+    @RenderSection("scripts", required: false)
+
+    <script src="~/Scripts/jquery.signalR-2.4.1.js"></script>
+    <script src="~/SignalR/hubs"></script>
+    <script src="~/Scripts/knockout-3.5.0.js"></script>
+    <script src="~/js/perfSurf.js"></script>
+
+</body>
+</html>

@@ -175,10 +175,12 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\DragController.cs" />
     <Compile Include="Controllers\HabitantController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MoonController.cs" />
+    <Compile Include="Controllers\newPlanetController.cs" />
     <Compile Include="Controllers\PlanetController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -200,6 +202,7 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\newPlanet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\PlanetViewModel.cs" />
@@ -356,6 +359,11 @@
     <Content Include="Views\Planet\Index.cshtml" />
     <Content Include="Views\Shared\_Navigation.cshtml" />
     <Content Include="Views\Shared\_Footer.cshtml" />
+    <Content Include="Views\Shared\_LayoutSecondary.cshtml" />
+    <Content Include="Views\Shared\_Navigation_2.cshtml" />
+    <Content Include="Views\newPlanet\index.cshtml" />
+    <Content Include="Views\newPlanet\Success.cshtml" />
+    <Content Include="Views\Drag\index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

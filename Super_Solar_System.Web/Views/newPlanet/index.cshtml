@@ -1,0 +1,41 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model Super_Solar_System.Web.Models.newPlanet
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    @using (Html.BeginForm("Save", "newPlanet", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <div class="d-flex justify-content-center">
+            <div class="row">
+                <!-- <<<<<<<<<<<<<<<< Planet >>>>>>>>>>>>>>>>>> -->
+                <div class="col-md-2 col-md-offset-1">
+                    <div style="height:800px" class="person">
+                        <input type="file" name="image" class="img-responsive"/>
+
+                        <div class="person-content">
+                            <h5 class="role">Name: @Html.TextBoxFor(model => model.Name)</h5>
+                            <h5 class="role">Distance : @Html.TextBoxFor(model => model.Distance)</h5>
+                            <h5 class="role">Radius : @Html.TextBoxFor(model => model.Radius)</h5>
+                            <br />
+                            <input type="submit" value="Save" class="btn btn-default"/>
+
+                            <br />
+                            <br />
+                        </div>
+                    </div>
+                </div>
+                <!-- <<<<<<<<<<<<<<<< Planet >>>>>>>>>>>>>>>>>> -->
+                
+            </div>
+        </div>
+    }
+</body>
+</html>

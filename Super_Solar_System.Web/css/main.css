@@ -1,15 +1,4 @@
-/* ------------------------------------------------------------------------------
-	Template Name: Flosix
-	Author: Designstub
-	Author URI: http://www.designstub.com
-	
-	
-	
-/* ------------------------------------------------------------------------------
-	Typography
--------------------------------------------------------------------------------*/
 
-@import url(http://fonts.googleapis.com/css?family=Source%20Sans%20Pro:300,400,500,600,700);
 p {
 	font-size: 14px;
 	line-height: 22.4px;
@@ -592,3 +581,39 @@ ul li {
 	font-size: 11px;
 	margin: 0 2px;
 }
+
+
+.divDrag {
+    float: left;
+    width: 10%;
+    height: 10%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+}
+
+.divDrag img {
+    width: 100%;
+    height: 100%;
+
+}
+
+#sun {
+    display:block;
+    width: 400px;
+    height: 400px;
+}
+
+div[id^="place"] {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 4px dotted #ffffff;
+}
+
+    div[id^="place"] img {
+        width: 100%;
+        height: 100%;
+    }

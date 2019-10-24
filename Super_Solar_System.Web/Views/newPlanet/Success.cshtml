@@ -1,0 +1,38 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Success</title>
+</head>
+<body>
+    @using (Html.BeginForm("Save", "newPlanet", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <div class="d-flex justify-content-center">
+            <div class="row">
+                <!-- <<<<<<<<<<<<<<<< Planet >>>>>>>>>>>>>>>>>> -->
+                <div class="col-md-2 col-md-offset-1">
+                    <div style="height:800px" class="person">
+                        <img src="~/Images/@ViewBag.planet.Image" />
+
+                        <div class="person-content">
+                            <h5>Name: @ViewBag.planet.Name</h5>
+                            <h5 class="role">Distance : @ViewBag.planet.Distance</h5>
+                            <h5 class="role">Radius : @ViewBag.planet.Radius</h5>
+                            <br />
+                        </div>
+                    </div>
+                </div>
+                <!-- <<<<<<<<<<<<<<<< Planet >>>>>>>>>>>>>>>>>> -->
+
+            </div>
+        </div>
+    }
+
+
+</body>
+</html>

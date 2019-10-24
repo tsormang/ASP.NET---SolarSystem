@@ -1,0 +1,104 @@
+﻿
+@{
+    ViewBag.Title = "index";
+}
+
+<h2 class="text-center">Drag n Drop</h2>
+<h4 class="text-center">Drag the Planet to your Solar System</h4>
+
+
+
+
+<div class="d-flex text-center">
+    <div class="row">
+
+        <div class="col text-center">
+
+            <div class="divDrag" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img src="~/images/Mars.jpg" draggable="true" ondragstart="dragIt(event)" id="drag1">
+            </div>
+
+            <div class="divDrag" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img src="~/images/Mercury.jpg" draggable="true" ondragstart="dragIt(event)" id="drag2">
+            </div>
+
+            <div class="divDrag" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img src="~/images/Neptune.jpg" draggable="true" ondragstart="dragIt(event)" id="drag3">
+            </div>
+
+            <div class="divDrag" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img src="~/images/Venus.jpg" draggable="true" ondragstart="dragIt(event)" id="drag4">
+            </div>
+
+            <div class="divDrag" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img src="~/images/Uranus.jpg" draggable="true" ondragstart="dragIt(event)" id="drag5">
+            </div>
+
+            <div class="divDrag" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img src="~/images/Earth.png" draggable="true" ondragstart="dragIt(event)" id="drag6">
+            </div>
+
+            <div class="divDrag" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img src="~/images/Umbriel.jpg" draggable="true" ondragstart="dragIt(event)" id="drag7">
+            </div>
+
+            <div class="divDrag" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img src="~/images/Jupiter.jpg" draggable="true" ondragstart="dragIt(event)" id="drag8">
+            </div>
+        </div>
+
+        <div id="sun">
+            <img src="~/images/SUN.jpg" width="400" height="400">
+        </div>
+
+        <div class="col-md-12 justify-content-center">
+            <h3> My Solar System </h3>
+            <div class="pics">
+                <div id="place1" ondrop="dropIt(event);" ondragover="event.preventDefault();"></div>
+                <div id="place2" ondrop="dropIt(event);" ondragover="event.preventDefault();"></div>
+                <div id="place3" ondrop="dropIt(event);" ondragover="event.preventDefault();"></div>
+                <div id="place4" ondrop="dropIt(event);" ondragover="event.preventDefault();"></div>
+                <div id="place5" ondrop="dropIt(event);" ondragover="event.preventDefault();"></div>
+                <div id="place6" ondrop="dropIt(event);" ondragover="event.preventDefault();"></div>
+                <div id="place7" ondrop="dropIt(event);" ondragover="event.preventDefault();"></div>
+                <div id="place8" ondrop="dropIt(event);" ondragover="event.preventDefault();"></div>
+                <div id="place9" ondrop="dropIt(event);" ondragover="event.preventDefault();"></div>
+                <div id="place10" ondrop="dropIt(event);" ondragover="event.preventDefault();"></div>
+                <div id="place11" ondrop="dropIt(event);" ondragover="event.preventDefault();"></div>
+                <div id="place12" ondrop="dropIt(event);" ondragover="event.preventDefault();"></div>
+            </div>
+
+            <br />
+            <br />
+            <br />
+        </div>
+    </div>
+</div>
+
+
+@section scripts{
+    <script>
+
+        //function called when drag starts
+        function dragIt(theEvent) {
+            //tell the browser what to drag
+            theEvent.dataTransfer.setData("Text", theEvent.target.id);
+        }
+
+        //function called when element drops
+        function dropIt(theEvent) {
+            //get a reference to the element being dragged
+            var theData = theEvent.dataTransfer.getData("Text");
+            //get the element
+            var theDraggedElement = document.getElementById(theData);
+            //add it to the drop element
+            theEvent.target.appendChild(theDraggedElement);
+            //instruct the browser to allow the drop
+            theEvent.preventDefault();
+        }
+
+
+    </script>
+
+
+}
